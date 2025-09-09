@@ -1,0 +1,5 @@
+<h1>{{ item.name }}</h1>
+<p>{{ item.description }}</p>
+<a href="{% url 'item_edit' item.pk %}">Edit</a> |
+<a href="{% url 'item_delete' item.pk %}">Delete</a> |
+<a href="{% url 'item_list' %}">Back to list</a>
