@@ -51,3 +51,4 @@ def signup(request):
     else:
         form = UserCreationForm()
     return render(request, 'core/signup.html', {'form': form})
+print("Debug: core app loaded")
